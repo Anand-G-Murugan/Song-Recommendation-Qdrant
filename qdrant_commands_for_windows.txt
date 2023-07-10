@@ -1,0 +1,8 @@
+docker run -p 6333:6333 `
+           -v ${PWD}/qdrant_storage:/qdrant/storage `
+           qdrant/qdrant
+
+
+
+python -m venv venv
+venv\Scripts\activate
