@@ -108,7 +108,7 @@ def main():
     st.title("Song Dataframe Application")
 
     # Load Data
-    df = pd.read_csv("data_folder\data.csv")
+    df = pd.read_csv("data_folder/data.csv")
     last_two_columns = df.iloc[:, -2:]
     st.dataframe(last_two_columns)
     
