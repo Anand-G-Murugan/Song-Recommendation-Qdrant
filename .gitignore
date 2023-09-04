@@ -1,2 +1,2 @@
 qdrant_storage/
-venv/
+.venv/
