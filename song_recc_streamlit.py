@@ -10,7 +10,7 @@ from qdrant_client.http.models import PointStruct
 
 def makeCollection():
     # Function to initialize the qdrant collection. (This is the code from song_recc.ipynb)
-    client = QdrantClient("localhost", port=6333)
+    client = QdrantClient("http://65.1.33.97", port=6333)
     existing_collections = client.get_collections()
     flag = 0
     for i in existing_collections.collections:
